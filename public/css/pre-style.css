@@ -1,0 +1,284 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font: 13px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: #4DB6AC;
+}
+
+.navigation {
+  height: 40px;
+  width: 100%;
+  background: #4DB6AC;
+  box-shadow: -3px 1px 3px #E0E0E0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navigation-container {
+  margin: 0px 30px;
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.navigation-logo {
+  margin-top: 0px;
+  position: absolute;
+  left: 47%;
+}
+
+.logo-brand {
+  // background-image: url('/img/logo_dark.png');
+  height: 26px;
+  width: 29px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.pull-right {
+  text-align: left;
+  float: right;
+}
+
+.pull-left {
+  text-align: right;
+  float: left;
+}
+
+.navigation-nav {
+  margin-right: 60px;
+}
+
+.navigation-list {
+  list-style: none;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list li {
+  float: left;
+  padding-right: 10px;
+  position: relative;
+}
+
+.navigation-list li a {
+  display: block;
+  line-height: 3;
+  text-align: center;
+  height: auto;
+  position: relative;
+  font-size: 11px;
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0px 5px;
+  padding-bottom: 7px;
+}
+
+.navigation-list li a:hover {
+  color: #009688;
+}
+
+.navigation-list li .active {
+  border-bottom: 2px solid #009688;
+}
+
+.img-relay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.lms-banner {
+  background: url('/img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  margin-top: 41px;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0,.3);
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.banner-tag {
+  transform: translateX(-50%,-50%);
+  position: absolute;
+  text-align: center;
+  left: 30%;
+  top: 20%;
+}
+
+.tagline {
+  font-size: 35px;
+  color: #fff;
+  font-weight: normal;
+  font-family: "Bubbler One", Helvetica;
+}
+
+.banner-tag p {
+  color: #4DB6AC;
+  max-width: 300px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.button-group {
+  display: block;
+  margin: 30px;
+}
+
+.button {
+  padding: 10px 25px;
+  width: 60px;
+  background: #F44336;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-orange {
+  background-color: #f39c12;
+  transition: all .3s ease-in-out;
+}
+
+.button-orange:hover {
+  background: #f39c12;
+  color: #fff;
+}
+
+.button-white {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.button-round {
+  border-radius: 17px;
+}
+
+.button-square {
+  border-radius: 2px;
+}
+
+.button-outline-orange {
+  background: transparent;
+  border: 1px solid #f39c12;
+  color: #f39c12;
+}
+
+.lms-login {
+  width: 100%;
+  background: #fafafa;
+  height: 100vh;
+  display: block;
+  padding: 70px 0;
+  border-radius: 4px;
+}
+
+.lms-login-wrapper {
+  width: 700px;
+  height: 430px;
+  margin: 50px auto;
+  background: #fff;
+  box-shadow: -1px 5px 17px 0px rgba(0, 0, 0, 0.07);
+}
+
+.lms-right {
+  width: 45%;
+  float: left;
+  height: 100%;
+  background-image: url('/img/books2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.lms-left{
+  float: left;
+  width: 55%;
+  height: 100%;
+}
+
+.lms-login-container {
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+.lms-form-group {
+  padding: 10px 7px;
+  position: relative;
+  height: 70px;
+}
+
+.lms-form-group span {
+  position: absolute;
+  bottom: 4px;
+  left: 39px;
+  top: 58px;
+  color: rgba(26, 188, 156, .6);
+}
+
+.lms-form-group input {
+  padding-left: 30px;
+  box-shadow: 2px 4px 6px 6px rgba(0, 0, 0, 0.06);
+}
+
+.lms-btn-green {
+  background-color: rgba(26, 188, 156,1.0);
+  color: #fff;
+}
+
+input {
+  margin: 40px 25px;
+  width: 250px;
+  display: block;
+  border: 1px solid rgba(236, 240, 241,.8);
+  padding: 7px 7px;
+  color: #BDBDBD;
+  border-radius: 20px;
+;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+}
+
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 11px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+.lms-heading {
+  font-size: 30px;
+  color: #1abc9c;
+  font-weight: normal;
+  font-family: "Bubbler One", Helvetica;
+  text-align: center;
+}
