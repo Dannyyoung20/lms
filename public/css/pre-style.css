@@ -37,7 +37,7 @@ a {
 }
 
 .logo-brand {
-  // background-image: url('/img/logo_dark.png');
+
   height: 26px;
   width: 29px;
   font-size: 22px;
@@ -124,7 +124,7 @@ a {
   transform: translateX(-50%,-50%);
   position: absolute;
   text-align: center;
-  left: 30%;
+  left: 35%;
   top: 20%;
 }
 

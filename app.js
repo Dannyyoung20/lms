@@ -9,6 +9,7 @@ const mongoose = require('mongoose');
 const flash = require('connect-flash');
 const session = require('express-session');
 
+mongoose.Promise = require('bluebird');
 mongoose.connect(process.env.MONGODB_URI,
 { useMongoClient: true,
   promiseLibrary: require('bluebird')
